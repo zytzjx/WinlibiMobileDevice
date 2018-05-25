@@ -5,7 +5,7 @@
 WinlibiMobileDevice is used mingwin compiled the Source code.
 all code from [github.com](https://github.com/libimobiledevice)
 
-### Compile
+### Compile (window os X32)
 
      install msys2, download http://www.msys2.org/
      installdir\mingw32.exe 
