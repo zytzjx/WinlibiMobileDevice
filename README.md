@@ -20,7 +20,7 @@ $ mkdir builds
 $ cd builds
 $ git clone https://github.com/libimobiledevice/libplist.git
 $ cd libplist/
-$ ./autogen.sh
+$ ./autogen.sh --without-cython
 $ make
 $ make install
 $ cd ..
