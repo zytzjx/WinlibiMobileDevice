@@ -23,6 +23,12 @@ $ cd libplist/
 $ ./autogen.sh --without-cython
 $ make
 $ make install
+cd ..
+git clone https://github.com/libimobiledevice/libimobiledevice-glue.git
+cd libimobiledevice-glue
+./autogen.sh
+make
+make install
 $ cd ..
 $ git clone https://github.com/libimobiledevice/libusbmuxd.git
 $ cd libusbmuxd/
