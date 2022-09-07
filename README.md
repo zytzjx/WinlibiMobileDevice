@@ -68,3 +68,8 @@ $ make install
 $ cd ..  
 ```
 
+### Compile (window os X64)
+
+     install msys2, download http://www.msys2.org/
+     installdir\msys2.exe 
+	 [readme_x64](readme_x64.txt)
