@@ -66,6 +66,12 @@ $ ./autogen.sh
 $ make
 $ make install
 $ cd ..  
+$ git clone https://github.com/libimobiledevice/ideviceinstaller.git
+$ cd ideviceinstaller/
+$ ./autogen.sh
+$ make
+$ make install
+$ cd ..  
 ```
 
 ### Compile (window os X64)
