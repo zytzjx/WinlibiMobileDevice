@@ -16,6 +16,8 @@ $ pacman -Su
 $ pacman -S mingw-w64-i686-toolchain
 $ pacman -S --needed base-devel msys2-devel
 $ pacman -S git
+$ pacman -S libtool
+$ pacman -S --needed --noconfirm autoconf automake libtool make
 $ mkdir builds
 $ cd builds
 $ git clone https://github.com/libimobiledevice/libplist.git
