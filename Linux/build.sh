@@ -27,7 +27,7 @@ sudo apt-get install \
 git clone https://github.com/libimobiledevice/libplist.git
 cd libplist
 
-./autogen.sh
+./autogen.sh --without-cython
 make
 sudo make install
 cd ..
@@ -52,6 +52,13 @@ git clone https://github.com/libimobiledevice/libusbmuxd.git
 cd libusbmuxd
 
 ./autogen.sh
+make
+sudo make install
+cd ..
+
+git clone https://github.com/libimobiledevice/libimobiledevice.git
+cd libimobiledevice
+./autogen.sh --without-cython
 make
 sudo make install
 cd ..
