@@ -18,6 +18,8 @@ $ pacman -S --needed base-devel msys2-devel
 $ pacman -S git
 $ pacman -S libtool
 $ pacman -S --needed --noconfirm autoconf automake libtool make
+$ pacman -S mingw-w64-i686-pkg-config
+
 $ mkdir builds
 $ cd builds
 $ git clone https://github.com/libimobiledevice/libplist.git
@@ -74,9 +76,14 @@ $ make install
 $ cd ..  
 ```
 
+```sh
+
+```
+
+
 ### Compile (window os X64)
 
      install msys2, download http://www.msys2.org/
-     installdir\msys2.exe 
+     installdir\MinGW64.exe 
 	 
 [readme_x64](readme_x64.txt)
